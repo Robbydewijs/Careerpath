@@ -103,7 +103,6 @@ body {
     background-color: #00000069;
     transition: 0.3s ease;
     overflow: hidden;
-    
 }
 
 .box-container:hover {
@@ -194,4 +193,11 @@ body {
     justify-content: center;
     gap: 20px;
     margin: 20px;
+}
+
+.screenshot-image {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
